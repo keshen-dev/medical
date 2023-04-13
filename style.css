@@ -2,14 +2,14 @@
     font-family: 'ir';
     font-style: normal;
     font-weight: 400;
-  	src: url('./fonts/AzarMehr-Regular.ttf') format('truetype');
+  	src: url('./AzarMehr-Regular.ttf') format('truetype');
     font-display: swap;
   }
   @font-face {
     font-family: 'irb';
     font-style: normal;
     font-weight: 700;
-  	src: url('./fonts/AzarMehr-Bold.ttf') format('truetype');
+  	src: url('./AzarMehr-Bold.ttf') format('truetype');
     font-display: swap;
   }
   
