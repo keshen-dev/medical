@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'ir';
+    font-style: normal;
+    font-weight: 400;
+  	src: url('./fonts/AzarMehr-Regular.ttf') format('truetype');
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'irb';
+    font-style: normal;
+    font-weight: 700;
+  	src: url('./fonts/AzarMehr-Bold.ttf') format('truetype');
+    font-display: swap;
+  }
+  
+*{
+direction: rtl;
+padding: 0;
+margin:0;   
+}
+#container {
+    max-width: 369px;
+    min-height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 10px;
+}
+.siteTitle{
+    font-family: "irb";
+}
+a.telegramBtn {
+    vertical-align: middle;
+    width: 90%;
+    background: #6a72fb;
+    text-decoration: none;
+    color: #FFF;
+    font-family: "irb";
+    border-radius: 7px;
+    padding: 6px 0;
+    margin: 10px auto;
+    line-height: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.telegramBtn svg {
+    width: 30px;
+    height: 30px;
+    margin-left: 8px;
+}
+
+.telegramBtn svg path {
+    fill: #FFF;
+}a.telegramBtn.instagram {
+    background: #ff5200;
+    background: #17d0bd;
+}
+a.telegramBtn.login {
+    background: #17d0bd;
+    background: #ff5200;
+}
+h3.siteTitle {
+    margin-bottom: 18px;
+}
+
+.appBox {
+    margin: 15px auto;
+    border-top: 2px solid #c9c9c9;
+    margin-top: 35px;
+}
+
+.appBox h3 {
+    font-family: "irb";
+    font-size: 16px;
+    background: #fff;
+    width: fit-content;
+    padding: 0 10px;
+    margin: 0 auto;
+    margin-top: -18px;
+    margin-bottom: 20px;
+}
+.appbtn {
+    display: flex;
+    justify-content: space-between;
+}
+a.app {
+    background: #6a72fb;
+    color: #FFF;
+    display: flex;
+    width: 46%;
+    font-family: "irb";
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+    font-weight: 700;
+    padding: 0px 0;
+    box-shadow: 0 5px 10px rgb(179 183 246);
+    margin-bottom: 10px;
+    margin-top: 0;
+    text-decoration: none;
+}
+a.app svg {
+    width: 43px;
+    height: 43px;
+    fill: #FFF;
+    padding-left: 5px;
+}
+
+a.tarhClock {
+    display: flex;
+    font-family: "irb";
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
+    background: #17d0bd;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 5px 0;
+}
+ 
+.tarhClock span {
+    padding: 0 20px;
+}
+
+img.chalesh {
+    width: 45px;
+}
+
+a.tarhClock.rocket {
+    background: #ef2121;
+    color: #FFF;
+    box-shadow: unset;
+}a.blog {
+    display: block;
+    font-family: "irb";
+    background: #6a72fb;
+    margin: 10px auto;
+    padding: 9px 0;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #ffffff;
+}
+a.blog2{
+    background: #17d0bd;
+}
+a.blog3{
+
+}
